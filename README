@@ -1,3 +1,5 @@
+# 5113056042_HW2
+
 Script Overview
 The script follows the CRISP-DM framework for data mining and includes the following steps:
 
@@ -26,9 +28,10 @@ test_data = test_data.drop(columns=["Name", "Ticket", "Cabin"])```
 train_data["Sex"] = train_data["Sex"].map({"male": 0, "female": 1})
 test_data["Sex"] = test_data["Sex"].map({"male": 0, "female": 1})
 train_data = pd.get_dummies(train_data, columns=["Embarked"], drop_first=True)
-test_data = pd.get_dummies(test_data, columns=["Embarked"], drop_first=True)
+test_data = pd.get_dummies(test_data, columns=["Embarked"], drop_first=True)```
+
 2. Handling Missing Values
-Use median imputation for numeric columns and most frequent imputation for categorical columns.```
+Use median imputation for numeric columns and most frequent imputation for categorical columns.
 
 ```python
 X = train_data.drop(columns=["Survived"])
