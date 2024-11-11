@@ -159,4 +159,12 @@ Simply run the script as follows:
 python 5113056042_HW2.py
 ```
 
+```
+kaggle competitions submit -c titanic -f submission.csv -m "My first submission"
+```
+
+![image](https://github.com/user-attachments/assets/0627f385-f5c8-4200-9a2c-04b0be37355e)
+
+
+
 Make sure `train.csv` and `test.csv` are in the specified directory.
