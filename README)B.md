@@ -1,5 +1,5 @@
 
-# README for HW2: Titanic Survival Prediction Using Streamlit and Kaggle API
+# Titanic Survival Prediction Using Streamlit and Kaggle API
 
 ## 1. Prompt: How can I fetch the Titanic dataset from Kaggle for analysis?
 
@@ -97,6 +97,8 @@ Test Data Preview:
 ```
 
 ---
+![image](https://github.com/user-attachments/assets/1d85668e-0292-4f72-9ad2-8d433d419ecf)
+
 
 ## Notes
 - Ensure the `kaggle.json` file is correctly set up in your system to authenticate the Kaggle API.
