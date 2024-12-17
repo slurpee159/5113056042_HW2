@@ -1,5 +1,5 @@
 
-# Titanic Survival Prediction Using Streamlit and Kaggle API
+# 2. Titanic Survival Prediction Using Streamlit and Kaggle API
 
 ## 1. Prompt: How can I fetch the Titanic dataset from Kaggle for analysis?
 
